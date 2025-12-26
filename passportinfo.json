@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "PassportCredential": {
+      "@id": "https://Suraj-Murgude.github.io/Passport_Service/passportinfo.json#passportinfo"
+    },
+
+    "id":"schema:Text",
+  "user_id": "schema:Text",
+  "name": "schema:Text",
+  "gender": "schema:Text",
+  "birthdate": "schema:Text",
+  "email": "schema:Text",
+  "age": "schema:Text",
+  "phone_number": "schema:Text",
+  "address": "schema:Text",
+  "blood_group": "schema:Text",
+  "place_of_birth": "schema:Text",
+  "nationality": "schema:Text",
+  "passport_type": "schema:Text",
+  "marital_status": "schema:Text",
+  "father_name": "schema:Text",
+  "mother_name": "schema:Text",
+  "id_proof_type": "schema:Text",
+  "id_proof_number": "schema:Text",
+  "emergency_contact_name": "schema:Text",
+  "emergency_contact_phone": "schema:Text",
+  "created_at":"schema:Text"
+
+  }
+}
