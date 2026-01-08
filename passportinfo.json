@@ -3,11 +3,12 @@
     "https://www.w3.org/2018/credentials/v1",
     {
       "@version": 1.1,
+      "@protected": true,
 
       "schema": "https://schema.org/",
       "type": "@type",
 
-      "PassportCredential": "https://Suraj-Murgude.github.io/Passport_Service/passportinfo.json#PassportCredential",
+      "PassportCredential": "https://Suraj-Murgude.github.io/Passport_Service/passportinfo.json#passportinfo",
 
       "user_id": "schema:identifier",
       "name": "schema:name",
@@ -16,18 +17,23 @@
       "email": "schema:email",
       "age": "schema:age",
       "phone_number": "schema:telephone",
-      "address": "schema:address",
+
+      "address": "schema:Text",
       "blood_group": "schema:Text",
       "place_of_birth": "schema:birthPlace",
       "nationality": "schema:nationality",
       "passport_type": "schema:Text",
       "marital_status": "schema:maritalStatus",
-      "father_name": "schema:parent",
-      "mother_name": "schema:parent",
+
+      "father_name": "schema:Text",
+      "mother_name": "schema:Text",
+
       "id_proof_type": "schema:Text",
       "id_proof_number": "schema:identifier",
-      "emergency_contact_name": "schema:contactPoint",
+
+      "emergency_contact_name": "schema:Text",
       "emergency_contact_phone": "schema:telephone",
+
       "created_at": "schema:dateCreated"
     }
   ]
