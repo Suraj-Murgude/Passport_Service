@@ -1,40 +1,32 @@
 {
-  "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    {
-      "@version": 1.1,
-      "@protected": true,
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
 
-      "schema": "https://schema.org/",
-      "type": "@type",
+    "type": "@type",
+    "schema": "https://schema.org/",
 
-      "PassportCredential": "https://Suraj-Murgude.github.io/Passport_Service/passportinfo.json#passportinfo",
+    "PassportCredential": "https://Suraj-Murgude.github.io/Passport_Service/passportinfo.json#PassportCredential",
 
-      "user_id": "schema:identifier",
-      "name": "schema:name",
-      "gender": "schema:gender",
-      "birthdate": "schema:birthDate",
-      "email": "schema:email",
-      "age": "schema:age",
-      "phone_number": "schema:telephone",
-
-      "address": "schema:Text",
-      "blood_group": "schema:Text",
-      "place_of_birth": "schema:birthPlace",
-      "nationality": "schema:nationality",
-      "passport_type": "schema:Text",
-      "marital_status": "schema:maritalStatus",
-
-      "father_name": "schema:Text",
-      "mother_name": "schema:Text",
-
-      "id_proof_type": "schema:Text",
-      "id_proof_number": "schema:identifier",
-
-      "emergency_contact_name": "schema:Text",
-      "emergency_contact_phone": "schema:telephone",
-
-      "created_at": "schema:dateCreated"
-    }
-  ]
+    "user_id": "schema:identifier",
+    "name": "schema:name",
+    "gender": "schema:gender",
+    "birthdate": "schema:birthDate",
+    "email": "schema:email",
+    "age": "schema:age",
+    "phone_number": "schema:telephone",
+    "address": "schema:address",
+    "blood_group": "schema:Text",
+    "place_of_birth": "schema:birthPlace",
+    "nationality": "schema:nationality",
+    "passport_type": "schema:Text",
+    "marital_status": "schema:maritalStatus",
+    "father_name": "schema:parent",
+    "mother_name": "schema:parent",
+    "id_proof_type": "schema:Text",
+    "id_proof_number": "schema:identifier",
+    "emergency_contact_name": "schema:contactPoint",
+    "emergency_contact_phone": "schema:telephone",
+    "created_at": "schema:dateCreated"
+  }
 }
